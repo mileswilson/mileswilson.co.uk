@@ -1,0 +1,15 @@
+body {
+    background-image: url(images/overlay.png),  url(../../images/backgrounds/bg1.jpg);
+   background-repeat: repeat,	no-repeat,	no-repeat;
+    background-size: 100px 100px,	cover,	cover;
+    background-position: top left,	center center,	bottom center;
+    background-attachment: fixed,	fixed,	fixed;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    #main {
+        max-width: 100%;
+    }
+}
